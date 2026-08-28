@@ -1,0 +1,115 @@
+.review-section {
+    margin-top: 2rem;
+}
+
+.review-section > hr {
+    margin: 1.5rem 0;
+    border-color: #dfe3e8;
+    opacity: 1;
+}
+
+.review-section h4,
+.review-section > p > b {
+    color: #24313d;
+    letter-spacing: 0.01em;
+}
+
+.review-section h4 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.review-section .form-label {
+    color: #52606d;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.45rem;
+}
+
+.review-section textarea.form-control {
+    min-height: 7rem;
+    resize: vertical;
+    border: 1px solid #d8dee5;
+    border-radius: 0.65rem;
+    padding: 0.8rem 0.9rem;
+    box-shadow: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.review-section textarea.form-control:focus {
+    border-color: #fe424d;
+    box-shadow: 0 0 0 0.2rem rgba(254, 66, 77, 0.12);
+}
+
+.review-section .btn-outline-dark {
+    border-radius: 0.5rem;
+    padding: 0.55rem 1.2rem;
+    font-weight: 600;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.review-section .btn-outline-dark:hover {
+    background-color: #fe424d;
+    border-color: #fe424d;
+    transform: translateY(-1px);
+}
+
+.review-section > .row {
+    row-gap: 1rem;
+}
+
+.review-section > .row > .card {
+    border: 1px solid #e5e9ee !important;
+    border-radius: 0.75rem;
+    background: #fff;
+    box-shadow: 0 0.35rem 1rem rgba(36, 49, 61, 0.07);
+    padding: 1.15rem !important;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.review-section > .row > .card:hover {
+    box-shadow: 0 0.6rem 1.3rem rgba(36, 49, 61, 0.12);
+    transform: translateY(-2px);
+}
+
+.review-section > .row > .card .card-body {
+    padding: 0 !important;
+}
+
+.review-section .card-title {
+    margin-bottom: 0.55rem;
+    color: #24313d;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.review-section .starability-result {
+    margin-bottom: 0.8rem;
+}
+
+.review-section .card-text:not(.starability-result) {
+    color: #52606d;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.review-section .card form {
+    margin-top: 1rem;
+    margin-bottom: 0 !important;
+}
+
+.review-section .card form .btn {
+    border-radius: 0.4rem;
+}
+
+@media (max-width: 767.98px) {
+    .review-section {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .review-section > .row > .card {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+}
